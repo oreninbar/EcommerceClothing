@@ -1,0 +1,10 @@
+.products-container {
+  height: 100vh;
+  width: inherit;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2;
+  background-color: rgba(245, 245, 245, 0.582);
+  justify-content: center;
+
+}

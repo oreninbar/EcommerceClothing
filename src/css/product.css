@@ -1,0 +1,80 @@
+.product-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d8d8d8;
+  opacity: .6;
+}
+
+.product-container .product-background {
+  opacity: .5;
+  position: absolute;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  background-color: rgba(242, 242, 250, 0.397);
+}
+
+.product-container .product-img {
+  position: absolute;
+  height: 40rem;
+  width: auto;
+}
+
+.product-container .buttons-wrapper {
+  padding: 1rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-container .buttons-wrapper .btn-product-wrapper {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4rem;
+  width: 4rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  font-size: 2.6rem;
+}
+
+.product-container:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=product.css.map */

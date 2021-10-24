@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAC;EACpB,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CACpB",
+    "sources": [
+        "../sass/components/categories.scss"
+    ],
+    "names": [],
+    "file": "categories.css"
+}

@@ -1,0 +1,15 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Urbanist', sans-serif;
+}
+/*# sourceMappingURL=app.css.map */

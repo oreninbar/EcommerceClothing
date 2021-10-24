@@ -1,0 +1,15 @@
+.products-container {
+  height: 100vh;
+  width: inherit;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: 2;
+      grid-template-rows: 2;
+  background-color: rgba(245, 245, 245, 0.582);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=products.css.map */
