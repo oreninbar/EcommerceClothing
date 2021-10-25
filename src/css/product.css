@@ -12,11 +12,10 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #d8d8d8;
-  opacity: .6;
 }
 
 .product-container .product-background {
-  opacity: .5;
+  opacity: 0.2;
   position: absolute;
   height: 25rem;
   width: 25rem;
@@ -31,6 +30,7 @@
 }
 
 .product-container .buttons-wrapper {
+  opacity: 0.4;
   padding: 1rem;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -74,7 +74,7 @@
   font-size: 2.6rem;
 }
 
-.product-container:hover {
+.product-container .buttons-wrapper:hover {
   opacity: 1;
 }
 /*# sourceMappingURL=product.css.map */
