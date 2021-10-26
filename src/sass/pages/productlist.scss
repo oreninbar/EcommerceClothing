@@ -1,0 +1,34 @@
+@import "../abstract/_colors";
+@import "../abstract/_variables";
+
+.productlist-continer {
+  & .header {
+    background-color: white;
+  }
+  & .category-title {
+    height: 100%;
+    padding: 2rem 0rem 0rem 0rem;
+    margin: 0;
+    font-size: $title;
+    text-align: center;
+    background-color: $BackgroundGray;
+  }
+
+  & .list-sorting-container {
+    display: flex;
+    flex-direction: row;
+    background-color: $BackgroundGray;
+    padding: 1rem;
+
+    .filter-products-title {
+      font-size: $sub_title;
+      font-weight: 700;
+      margin-inline-end: 1rem;
+    }
+    .filter-sortproducts-title {
+      font-size: $sub_title;
+      font-weight: 700;
+      margin: 0rem .5rem 0rem 3rem;
+    }
+  }
+}

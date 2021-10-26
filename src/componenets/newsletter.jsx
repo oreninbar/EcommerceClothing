@@ -9,7 +9,7 @@ const Newsletter = () => {
       </h2>
       <div className="newsletter-input-wrapper">
         <input type="email" className="newsletter-input" placeholder="Your email"/>
-        <button className="newsletter-button"><i class="far fa-paper-plane"></i></button>
+        <button className="newsletter-button"><i className="far fa-paper-plane"></i></button>
       </div>
     </div>
   );

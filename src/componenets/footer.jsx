@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 import "../sass/components/footer.scss";
 
 export const Footer = () => {
@@ -31,28 +31,28 @@ export const Footer = () => {
       <div className="footer-center-container">
         <h1 className="usefull-links-title footer-title">usefull links</h1>
         <div className="usefull-link-wrapper">
-          <Link to="/Home" className="home-link">
+          <Link to="/Home" className="home-link usefull">
             Home
           </Link>
-          <Link to="/Home" className="fashion-link">
+          <Link to="/Home" className="fashion-link usefull">
             Man Fashion
           </Link>
-          <Link to="/Home" className="accessories">
+          <Link to="/Home" className="accessories usefull">
             Accessories
           </Link>
-          <Link to="/Home" className="order-tracking-link">
+          <Link to="/Home" className="order-tracking-link usefull">
             Order Tracking
           </Link>
-          <Link to="/Home" className="wishlist-link">
+          <Link to="/Home" className="wishlist-link usefull">
             Wishlist
           </Link>
-          <Link to="/Home" className="woman-fashion-link">
+          <Link to="/Home" className="woman-fashion-link usefull">
             Woman Fashion
           </Link>
-          <Link to="/Home" className="terms-link">
+          <Link to="/Home" className="terms-link usefull">
             Terms
           </Link>
-          <Link to="/Home" className="myaccount-link">
+          <Link to="/Home" className="myaccount-link usefull">
             My Account
           </Link>
         </div>

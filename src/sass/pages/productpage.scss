@@ -1,0 +1,129 @@
+@import "../abstract/variables";
+@import "../abstract/colors";
+
+.product_page-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100vw;
+}
+.product_detail-container {
+  height: 90vh;
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  & .product_img-wrapper {
+    flex: 1;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    & .product-img {
+      height: 70rem;
+      position: relative;
+    }
+  }
+
+  & .product_data {
+    flex: 1;
+    height: 80%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    & .product_name-title {
+      font-size: $title;
+      margin-bottom: 3rem;
+      font-weight: 600;
+    }
+    & .product_description {
+      width: 60%;
+      font-size: $paragraph;
+      margin-bottom: 3rem;
+      font-weight: 600;
+    }
+    & .product_price {
+      font-size: $title;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    & .product-filter {
+      height: 5rem;
+      width: 55%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      .sizes-filter {
+        flex: 1;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+
+        & .sizes-filter-title {
+          margin-inline-end: 1.5rem;
+        }
+      }
+      .colors-filter {
+        flex: 1;
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+      }
+    }
+
+    & .amount {
+      height: 4rem;
+      display: flex;
+      width: 10rem;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 3rem;
+
+      & .amount-filter {
+        text-align: center;
+        border: 0.2rem solid teal;
+        font-size: 1.7rem;
+        font-weight: 600;
+        height: 60%;
+        width: 4rem;
+        margin: 0rem 1rem;
+      }
+    }
+
+    & .btn_add_to_cart {
+      height: 5rem;
+      width: 15rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding: .3rem;  
+      border: 0.2rem solid teal;
+    }
+  }
+}
+
+.color-selection {
+  margin-left: 1.4rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.color-filter-black {
+  background-color: black;
+}
+.color-filter-blue {
+  background-color: blue;
+}
+.color-filter-grey {
+  background-color: grey;
+}

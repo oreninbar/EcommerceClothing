@@ -20,7 +20,8 @@
 .category-item-container .category-img {
   position: absolute;
   z-index: 0;
-  height: 70rem;
+  margin-top: 6rem;
+  height: 65rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;

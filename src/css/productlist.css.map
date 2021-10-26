@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AACE,qBADmB,CACjB,OAAO,CAAC;EACR,gBAAgB,EAAE,KAAK;CACxB;;AAHH,AAIE,qBAJmB,CAIjB,eAAe,CAAC;EAChB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,mBAAmB;EAC5B,MAAM,EAAE,CAAC;EACT,SAAS,EEVN,MAAM;EFWT,UAAU,EAAE,MAAM;EAClB,gBAAgB,ECHA,0BAA0B;CDI3C;;AAXH,AAaE,qBAbmB,CAajB,uBAAuB,CAAC;EACxB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,gBAAgB,ECTA,0BAA0B;EDU1C,OAAO,EAAE,IAAI;CAYd;;AA7BH,AAmBI,qBAnBiB,CAajB,uBAAuB,CAMvB,sBAAsB,CAAC;EACrB,SAAS,EEpBJ,IAAI;EFqBT,WAAW,EAAE,GAAG;EAChB,iBAAiB,EAAE,IAAI;CACxB;;AAvBL,AAwBI,qBAxBiB,CAajB,uBAAuB,CAWvB,0BAA0B,CAAC;EACzB,SAAS,EEzBJ,IAAI;EF0BT,WAAW,EAAE,GAAG;EAChB,MAAM,EAAE,oBAAoB;CAC7B",
+    "sources": [
+        "../sass/pages/productlist.scss",
+        "../sass/abstract/_colors.scss",
+        "../sass/abstract/_variables.scss"
+    ],
+    "names": [],
+    "file": "productlist.css"
+}

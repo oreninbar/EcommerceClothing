@@ -17,4 +17,14 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.categories-container .categories-title {
+  top: 6rem;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  position: absolute;
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
 /*# sourceMappingURL=categories.css.map */

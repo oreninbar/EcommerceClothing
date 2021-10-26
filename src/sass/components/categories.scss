@@ -1,3 +1,4 @@
+@import "../abstract/variables";
 .categories-container {
   position: relative;
   box-sizing: border-box;
@@ -6,4 +7,13 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  .categories-title {
+    top: 6rem;
+    justify-self: start;
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+  }
 }

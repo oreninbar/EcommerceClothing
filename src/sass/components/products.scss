@@ -1,10 +1,27 @@
 .products-container {
   height: 100vh;
   width: inherit;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 2;
+  display: flex;
+  flex-direction: column;
   background-color: rgba(245, 245, 245, 0.582);
   justify-content: center;
+  align-items: center;
 
+  & .categories-title {
+    z-index: 1;
+    justify-self: center;
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+  }
+
+  & .products_items-container {
+    height: 80vh;
+    width: 85vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2;
+  }
 }

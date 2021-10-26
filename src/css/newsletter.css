@@ -26,7 +26,7 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  font-weight: 800;
+  font-weight: 700;
   word-spacing: 0.2rem;
   font-family: "Roboto", sans-serif;
 }
@@ -65,6 +65,6 @@
   color: white;
   font-size: 2.5rem;
   border: 0.1rem solid #7e7e7e;
-  background-color: #00d1d1;
+  background-color: #222222;
 }
 /*# sourceMappingURL=newsletter.css.map */
