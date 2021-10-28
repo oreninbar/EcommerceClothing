@@ -1,0 +1,20 @@
+@import "../../abstract/_variables";
+@import "../../abstract/colors";
+
+.order_summary-container{
+    height: 80%;
+    width: 100%;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    border: solid .2rem $mediumGray;
+    border-radius: 1.5rem;
+
+    & .title{
+        font-size:$title ;
+    }
+
+
+}

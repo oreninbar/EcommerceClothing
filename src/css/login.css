@@ -1,0 +1,168 @@
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../../img/loginback.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login_form-container {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login_form-container .cancel-link {
+  margin-top: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #1944d1;
+  cursor: pointer;
+}
+
+.login_form-container {
+  background-color: rgba(255, 255, 255, 0.801);
+  max-height: 70%;
+  min-height: 60%;
+  width: 500px;
+  max-width: 60rem;
+  min-width: 34rem;
+  border: 0.3rem solid #e9e4e4;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.login_form-container .form-title {
+  margin: 0.3rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.login_form-container .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.6rem;
+  height: 70%;
+  width: 90%;
+  min-width: 30rem;
+}
+
+.login_form-container .form .form-label {
+  font-size: 1.8rem;
+  font-weight: 700;
+  width: 100%;
+  text-align: start;
+}
+
+.login_form-container .form .form-input {
+  border: 0.2rem solid #e9e4e4;
+  border-radius: 0.4rem;
+  margin: 0.5rem;
+  width: 100%;
+  height: 3.5rem;
+  font-size: 1.8rem;
+}
+
+.login_form-container .form .form-input-btn {
+  width: 100%;
+  height: 3rem;
+  margin-top: 0.6rem;
+  background-color: #3cb2da;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.login_form-container .form .form-input-btn .login-send {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.login_form-container .form .error-message {
+  font-size: 2rem;
+  text-align: start;
+  width: 100%;
+  color: red;
+  margin: 0.5rem 0.5rem;
+}
+
+.login_form-container .forgot-password {
+  position: relative;
+  color: blue;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login_form-container .need-an-account {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.login_form-container .sign-up {
+  color: blue;
+  font-size: 2.6rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+/*# sourceMappingURL=login.css.map */

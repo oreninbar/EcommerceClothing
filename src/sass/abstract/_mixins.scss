@@ -16,3 +16,10 @@
 @mixin title {
   font-size: 2.3rem;
 }
+
+@mixin link{
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 2rem;
+}

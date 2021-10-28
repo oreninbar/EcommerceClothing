@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import {Link} from 'react-router-dom'
 import "../sass/components/slider.scss";
 const sliderItems = require("../data").sliderItems;
 
@@ -36,7 +37,8 @@ export const Slider = () => {
         <div className="slider-content">
           <h1 className="slider-title">{title}</h1>
           <div className="slider-description">{description}</div>
-          <button className="slider-btn">Enter</button>
+          
+          <div className="slider-btn"><Link to='./productsList' className="slider-btn-link">Enter</Link></div>
         </div>
       </div>
       <div className="arrow end" onClick={() => changeSlide("end")}>

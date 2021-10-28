@@ -1,0 +1,139 @@
+@import "../abstract/_mixins";
+@import "../abstract/_colors";
+@import "../abstract/_variables";
+
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../img/loginback.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+// .login-container.signup {
+//   background-image: url("../../img/fashion1.png");
+//   background-position: right;
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+// .login-container.resetpassword {
+//   background-image: url("../../img/fashion2.png");
+//   background-position: left;
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+
+.login_form-container{
+  height: 100vh;
+  width: 100%;
+  @include flex-column-center;
+
+  & .cancel-link {
+    margin-top: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: $paragraph;
+    color: rgb(25, 68, 209);
+    cursor: pointer;
+  }
+}
+
+.login_form-container {
+  background-color: rgba(255, 255, 255, 0.801);
+  max-height: 70%;
+  min-height: 60%;
+  width: 500px;
+  max-width: 60rem;
+  min-width: 34rem;
+  border: 0.3rem solid rgb(233, 228, 228);
+  border-radius: 1rem;
+  @include flex-column-center;
+  justify-content: space-evenly;
+  padding: 1rem;
+
+  & .form-title {
+    margin: 0.3rem;
+    font-size: $Hometitle;
+    font-weight: bold;
+  }
+
+  & .form {
+    @include flex-column-center;
+    font-size: 1.6rem;
+    height: 70%;
+    width: 90%;
+    min-width: 30rem;
+
+    & .form-label {
+      font-size: $paragraph;
+      font-weight: 700;
+      width: 100%;
+      text-align: start;
+    }
+
+    & .form-input {
+      border: 0.2rem solid rgb(233, 228, 228);
+      border-radius: 0.4rem;
+      margin: 0.5rem;
+      width: 100%;
+      height: 3.5rem;
+      font-size: $paragraph;
+    }
+
+    & .form-input-btn {
+      width: 100%;
+      height: 3rem;
+      margin-top: 0.6rem;
+      background-color: rgb(60, 178, 218);
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: aliceblue;
+      font-weight: 700;
+      font-size: $paragraph;
+
+      .login-send {
+        width: 100%;
+        height: 100%;
+        font-size: 2rem;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+
+    & .error-message {
+      font-size: $sub_title;
+      text-align: start;
+      width: 100%;
+      color: red;
+      margin: 0.5rem 0.5rem;
+    }
+  }
+
+  & .forgot-password {
+    position: relative;
+    color: blue;
+    font-size: $sub_title;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  & .need-an-account {
+    font-size: $sub_title;
+    font-weight: bold;
+  }
+
+  & .sign-up {
+    color: blue;
+    font-size: $title;
+    font-weight: 800;
+    text-decoration: none;
+  }
+}

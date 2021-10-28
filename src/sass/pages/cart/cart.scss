@@ -1,0 +1,35 @@
+@import "../../abstract/_variables";
+@import "../../abstract/colors";
+
+.cart-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  & .cart-header-wrapper {
+    height: 25%;
+    width: 100%;
+  }
+  & .main-cart-wrapper {
+    display: flex;
+    height: 75%;
+    width: 100%;
+    & .cart-list-wrapper {
+      height: fit-content;
+      width: 67%;
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    & .cart-summary-wrapper {
+      padding: 3rem;
+      height: 80%;
+      width: 33%;
+      display: flex;
+      justify-content: stretch;
+
+    }
+  }
+}

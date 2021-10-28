@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/pages/cart/cartproducts.scss"
+    ],
+    "names": [],
+    "file": "cartproducts.css"
+}

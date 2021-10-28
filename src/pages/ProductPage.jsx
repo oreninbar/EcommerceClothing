@@ -4,6 +4,8 @@ import { Navbar } from "../componenets/Navbar";
 import { Announcement } from "../componenets/Announcement";
 import { popularProducts } from "../data";
 import "../sass/pages/productpage.scss";
+
+
 export const ProductPage = () => {
   return (
     <div className="product_page-container">

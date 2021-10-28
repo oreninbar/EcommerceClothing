@@ -162,7 +162,6 @@
 
 .product_detail-container .product_data .amount .amount-filter {
   text-align: center;
-  border: 0.2rem solid teal;
   font-size: 1.7rem;
   font-weight: 600;
   height: 60%;
@@ -175,7 +174,7 @@
   width: 15rem;
   font-size: 1.5rem;
   font-weight: 600;
-  padding: .3rem;
+  padding: 0.3rem;
   border: 0.2rem solid teal;
 }
 

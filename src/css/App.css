@@ -10,6 +10,7 @@ body {
 }
 
 .App {
+  position: relative;
   font-family: 'Urbanist', sans-serif;
 }
 /*# sourceMappingURL=app.css.map */

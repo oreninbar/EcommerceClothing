@@ -1,0 +1,52 @@
+@import "../../abstract/_variables";
+@import "../../abstract/_mixins";
+@import "../../abstract/colors";
+
+.cart_header-container {
+  height: 10rem;
+  width: 100vw;
+  @include flex-column-center;
+  & .cart-title {
+    text-align: center;
+    height: 5rem;
+    font-size: $title;
+  }
+
+  & .sub_cart_navbar {
+    height: 5rem;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    & .btn-checkout{
+      @include link;
+      color: white;
+      padding: 1rem;
+      background-color: black;
+    }
+    & .btn-continue-shopping{
+      @include link;
+      color: black;
+      padding: 1rem;
+      background-color: white;
+      border: solid black;
+    }
+    
+  
+
+    & .products-in-cart-filters {
+      text-align: center;
+      font-size: $sub_title;
+      width: auto;
+
+      & .link {
+        font-weight: 700;
+        color: black;
+        margin: .5rem 1rem;
+        text-decoration: none;
+      }
+    }
+  }
+}
