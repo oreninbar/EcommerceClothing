@@ -11,16 +11,16 @@ export const CartProduct = () => {
         className="cart-product-img"
       />
       <div className="cart_product-detail">
-        <div className="cart-product-name">
+        <div className="cart-product-name title">
           Product: <span>JESSIE THUNDER SHOES</span>
         </div>
-        <div className="cart-product-id">
+        <div className="cart-product-id title">
           ID: <span>120918233</span>
         </div>
-        <div className="cart-product-color">
+        <div className="cart-product-color title">
           Color: <span>black</span>
         </div>
-        <div className="cart-product-size">
+        <div className="cart-product-size title">
           Size: <span>37.7</span>
         </div>
       </div>

@@ -27,6 +27,9 @@
     font-size: $sub_title;
     font-weight: 600;
   }
+  & .title{
+    margin: .4rem 0rem;
+  }
   & .cart_product-price {
     display: flex;
     width: 9rem;
