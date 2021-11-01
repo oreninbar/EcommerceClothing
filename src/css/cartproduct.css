@@ -46,6 +46,10 @@
   font-weight: 600;
 }
 
+.cart_product-container .title {
+  margin: .4rem 0rem;
+}
+
 .cart_product-container .cart_product-price {
   display: -webkit-box;
   display: -ms-flexbox;
