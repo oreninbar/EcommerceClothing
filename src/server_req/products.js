@@ -10,6 +10,16 @@ const getProduct = async (id) => {
   }
 };
 
+const getProducts = async () => {
+  try {
+    let result = await axios.get(`http://localhost:8080/products`);
+    if (result) return result.data;
+    else return null;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 const saveProduct = (product) => {
   try {
     let result = axios.post("http://localhost:8080/save_product", product);
@@ -20,5 +30,4 @@ const saveProduct = (product) => {
   }
 };
 
-export { getProduct };
-export { saveProduct };
+export { getProduct,getProducts,saveProduct };

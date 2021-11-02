@@ -7,7 +7,7 @@ const Product = require("../../model/Product");
 router.get("/products", async (req, res) => {
   try {
     let products = await Product.find({});
-    res.send(products);
+    res.status(200).send(products);
   } catch (err) {
     console.error("Error messages :", err);
   } finally {
@@ -18,7 +18,7 @@ router.get("/products", async (req, res) => {
 router.delete("/delete_all", async (req, res) => {
   try {
     await Product.deleteMany();
-    res.send("Delete all the users");
+    res.status(200).send("Delete all the users");
   } catch (error) {
     console.error("Error messages :", err);
   } finally {
@@ -30,7 +30,7 @@ router.post("/add_product", async (req, res) => {
   let product = new Product(req.body);
   try {
     await product.save();
-    res.send("made the save to the DB");
+    res.status(200).send("made the save to the DB");
   } catch (err) {
     console.error("Error messages: ", err);
   } finally {

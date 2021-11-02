@@ -185,6 +185,22 @@
   border-radius: 50%;
 }
 
+.color-filter-red {
+  background-color: red;
+}
+
+.color-filter-green {
+  background-color: green;
+}
+
+.color-filter-white {
+  background-color: white;
+}
+
+.color-filter-orange {
+  background-color: orange;
+}
+
 .color-filter-black {
   background-color: black;
 }

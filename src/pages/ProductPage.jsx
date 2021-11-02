@@ -1,47 +1,52 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Footer } from "../componenets/Footer";
 import { Navbar } from "../componenets/Navbar";
 import { Announcement } from "../componenets/Announcement";
-import { popularProducts } from "../data";
 import "../sass/pages/productpage.scss";
-
+import { useLocation } from "react-router";
 
 export const ProductPage = () => {
+  const location = useLocation();
+  const [productData, setProductData] = useState();
+
+  useEffect(() => {
+    setProductData(location.state);
+  },[]);
+
   return (
     <div className="product_page-container">
       <Navbar />
       <Announcement />
       <div className="product_detail-container">
         <div className="product_img-wrapper">
-          <img src={popularProducts[6].img} alt="img" className="product-img" />
+          <img src={location.state.img} alt="img" className="product-img" />
         </div>
         <div className="product_data">
-          <div className="product_name-title">Denim Jumpsuit</div>
+          <div className="product_name-title">{location.state.title}</div>
           <div className="product_description">
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat
+            {location.state.description}
           </div>
           <div className="product_price">
-            <i className="fas fa-dollar-sign"></i> 20{" "}
+            <i className="fas fa-dollar-sign"></i> {location.state.price}{" "}
           </div>
           <div className="product-filter">
             <div className="colors-filter">
               <h1 className="colors-filter-title">Color:</h1>
-              <div className="color-selection color-filter-black "></div>
-              <div className="color-selection color-filter-blue"></div>
-              <div className="color-selection color-filter-grey"></div>
+              {location.state.colors.map((color, i) => (
+                <div
+                  key={i}
+                  className={`color-selection color-filter-${color}`}
+                ></div>
+              ))}
             </div>
             <div className="sizes-filter">
               <h1 className="sizes-filter-title">Size</h1>
               <select name="size" id="size">
-                <option value="s">S</option>
-                <option value="m">M</option>
-                <option value="l">L</option>
-                <option value="xl">Xl</option>
-                <option value="xxl">XXL</option>
+                {location.state.sizes.map((size, i) => (
+                  <option key={i} value={size}>
+                    {size}
+                  </option>
+                ))}
               </select>
             </div>
           </div>
